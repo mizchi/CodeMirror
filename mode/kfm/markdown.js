@@ -60,7 +60,7 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
   ,   quote    = 'quote'
   ,   list1    = 'variable-2'
   ,   list2    = 'variable-3'
-  ,   list3    = 'keyword'
+  ,   list3    = 'variable-3'
   ,   hr       = 'hr'
   ,   image    = 'tag'
   ,   formatting = 'formatting'
