@@ -723,7 +723,6 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
     },
 
     token: function(stream, state) {
-      // console.log('stream', stream, state);
       // Reset state.formatting
       state.formatting = false;
 

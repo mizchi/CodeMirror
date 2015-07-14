@@ -34,8 +34,6 @@ CodeMirror.defineMode("kfm", function(config, modeConfig) {
     },
     token: function(stream, state) {
       state.combineTokens = null;
-      console.log(stream.string);
-
       // Hack to prevent formatting override inside code blocks (block and inline)
       if (state.codeBlock) {
         if (stream.match(/^```/)) {
