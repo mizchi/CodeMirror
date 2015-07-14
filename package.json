@@ -1,5 +1,5 @@
 {
-    "name": "codemirror",
+    "name": "@mizchi/codemirror",
     "version":"5.17.1",
     "main": "lib/codemirror.js",
     "description": "Full-featured in-browser code editor",
